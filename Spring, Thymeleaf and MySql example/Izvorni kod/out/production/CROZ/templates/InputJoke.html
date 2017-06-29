@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org/" lang="en">
+<head>
+    <title>Novi unos</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="/css/dizajn.css" type="text/css" media="screen"/>
+</head>
+<body>
+<div class="navigation-bar">
+    <ul>
+        <li><a  th:href="@{/}">Popis viceva</a></li>
+        <li><a th:class="selected" th:href="@{new}">Novi unos</a></li>
+    </ul>
+</div>
+<br/>
+
+<div class="content center">
+    <form action="/input" method="post" id="inputForm">
+        <br/>
+        <p class="center-block label">Unesite vic</p>
+        <br/>
+        <textarea name="content" id="content" rows="7" cols="50" form="inputForm" required="true"/>
+        <br/>
+        <input type="submit" value="Spremi"/>
+
+
+    </form>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>

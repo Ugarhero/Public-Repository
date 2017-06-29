@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE fakulteti SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+ 
+<fakulteti>
+	<fakultet id="fer" podrucje="Tehnicko">
+		<ime>Fakultet elektrotehnike i računarstva</ime>
+		<fid>63728516115</fid>
+		<adresa>
+			<mjesto pbr="10000">Zagreb</mjesto>
+		</adresa>
+		<studij model="3+2">
+			<upis>650</upis>
+		</studij>
+		<sport>
+			<dvorana>Da</dvorana>
+			<ekipa>Kosarka</ekipa>
+			<ekipa>Nogomet</ekipa>
+			<ekipa>Veslanje</ekipa>
+			<ekipa>Rukomet</ekipa>
+			<ekipa>Odbojka</ekipa>
+		</sport>
+		<ostalo>
+			<menza>Da</menza>
+			<kafic udaljenost="100">KSET</kafic>
+			<kafic udaljenost="300">Bourbon Caffe</kafic>
+			<kafic udaljenost="300">Caffe bar Piccolo Mondo</kafic>
+			<parkiraliste vrsta="Naplatni"></parkiraliste>
+			<parkiraliste vrsta="Nenaplatni"></parkiraliste>
+		</ostalo>
+	</fakultet>
+
+	<fakultet id="efzg" podrucje="Drustveno">
+		<ime>Ekonomski Fakultet Zagreb</ime>
+		<fid>233443283371908</fid>
+		<adresa>
+			<mjesto pbr="10000">Zagreb</mjesto>
+		</adresa>
+		<studij model="5+0">
+			<upis>500</upis>
+		</studij>
+		<sport>
+			<dvorana>Da</dvorana>
+			<ekipa>Nogomet</ekipa>
+			<ekipa>Rukomet</ekipa>
+			<ekipa>Odbojka</ekipa>
+		</sport>
+		<ostalo>
+			<menza>Da</menza>
+			<kafic udaljenost="300">Potter Caffe</kafic>
+			<kafic udaljenost="200">Platinum Caffe &amp; Club</kafic>
+			<parkiraliste vrsta="Naplatni"></parkiraliste>
+		</ostalo>
+	</fakultet>
+	
+	<fakultet id="agr" podrucje="Biotehnicko">
+		<ime>Agronomski fakultet u Zagrebu</ime>
+		<fid>730772450345565</fid>
+		<adresa>
+			<mjesto pbr="10000">Zagreb</mjesto>
+		</adresa>
+		<studij model="3+2">
+			<upis>800</upis>
+		</studij>
+		<sport>
+			<dvorana>Da</dvorana>
+			<ekipa>Stolni tenis</ekipa>
+			<ekipa>Nogomet</ekipa>
+			<ekipa>Rukomet</ekipa>
+		</sport>
+		<ostalo>
+			<menza>Ne</menza>
+			<parkiraliste vrsta="Nenaplatni"></parkiraliste>
+		</ostalo>
+	</fakultet>
+			
+	<fakultet id="simet" podrucje="Tehnicko">
+		<ime>Sveučilište u Zagrebu Metalurški fakultet</ime>
+		<fid>699036790137458</fid>
+		<adresa>
+			<mjesto pbr="44000">Sisak</mjesto>
+		</adresa>
+		<studij model="3+2">
+			<upis>900</upis>
+		</studij>
+		<sport>
+			<dvorana>Ne</dvorana>
+			<ekipa>Rukomet</ekipa>
+			<ekipa>Nogomet</ekipa>
+			<ekipa>Odbojka</ekipa>
+		</sport>
+		<ostalo>
+			<menza>Da</menza>
+			<parkiraliste vrsta="Nenaplatni"></parkiraliste>
+		</ostalo>
+	</fakultet>
+
+	<fakultet id="gfv" podrucje="Tehnicko">
+		<ime>Geotehnički fakultet</ime>
+		<fid>1456827867878045</fid>
+		<adresa>
+			<mjesto pbr="42000">Varaždin</mjesto>
+		</adresa>
+		<studij model="3+2">
+			<upis>300</upis>
+		</studij>
+		<sport>
+			<dvorana>Da</dvorana>
+			<ekipa>Rukomet</ekipa>
+			<ekipa>Odbojka</ekipa>
+		</sport>
+		<ostalo>
+			<menza>Da</menza>
+			<kafic udaljenost="500">Caffe bar Narca</kafic>
+			<kafic udaljenost="300">Caffe bar ARA</kafic>
+			<parkiraliste vrsta="Nema"></parkiraliste>
+		</ostalo>
+	</fakultet>
+
+	<fakultet id="kbf" podrucje="Humanisticko">
+		<ime>Katolički bogoslovni fakultet</ime>
+		<fid>138801953232943</fid>
+		<adresa>
+			<mjesto pbr="10000">Zagreb</mjesto>
+		</adresa>
+		<studij model="3+2">
+			<upis>750</upis>
+		</studij>
+		<sport>
+			<dvorana>Ne</dvorana>
+			<ekipa>Stolni tenis</ekipa>
+		</sport>
+		<ostalo>
+			<menza>Da</menza>
+			<parkiraliste vrsta="Nema"></parkiraliste>
+		</ostalo>
+	</fakultet>
+
+	<fakultet id="mef" podrucje="Biomedicinsko">
+		<ime>Medicinski fakultet</ime>
+		<fid>159078574143071</fid>
+		<adresa>
+			<mjesto pbr="10000">Zagreb</mjesto>
+		</adresa>
+		<studij model="4+1">
+			<upis>250</upis>
+		</studij>
+		<sport>
+			<dvorana>Ne</dvorana>
+		</sport>
+		<ostalo>
+			<menza>Da</menza>
+			<kafic udaljenost="300">Caffe bar Oaza</kafic>
+			<parkiraliste vrsta="Naplatni"></parkiraliste>
+		</ostalo>
+	</fakultet>
+
+	<fakultet id="muza" podrucje="Umjetnicko">
+		<ime>Muzička akademija</ime>
+		<fid>120317044706311</fid>
+		<adresa>
+			<mjesto pbr="10000">Zagreb</mjesto>
+		</adresa>
+		<studij model="3+2">
+			<upis>100</upis>
+		</studij>
+		<sport>
+			<dvorana>Ne</dvorana>
+		</sport>
+		<ostalo>
+			<menza>Ne</menza>
+			<kafic udaljenost="450">Caffe bar Zvono</kafic>
+			<parkiraliste vrsta="Naplatni"></parkiraliste>
+			<parkiraliste vrsta="Nenaplatni"></parkiraliste>
+		</ostalo>
+	</fakultet>
+
+		<fakultet id="math.pmf" podrucje="Prirodoslovno">
+		<ime>PMF-Matematički odsjek</ime>
+		<fid>124453820943049</fid>
+		<adresa>
+			<mjesto pbr="10000">Zagreb</mjesto>
+		</adresa>
+		<studij model="4+1">
+			<upis>350</upis>
+		</studij>
+		<sport>
+			<dvorana>Ne</dvorana>
+			<ekipa>Rukomet</ekipa>
+			<ekipa>Nogomet</ekipa>
+		</sport>
+		<ostalo>
+			<menza>Da</menza>
+			<kafic udaljenost="450">Caffe bar Integral</kafic>
+			<parkiraliste vrsta="Naplatni"></parkiraliste>
+			<parkiraliste vrsta="Nenaplatni"></parkiraliste>
+		</ostalo>
+	</fakultet>
+
+	<fakultet id="phy.pmf" podrucje="Prirodoslovno">
+		<ime>PMF - Fizički odsjek</ime>
+		<fid>231141520599789</fid>
+		<adresa>
+			<mjesto pbr="10000">Zagreb</mjesto>
+		</adresa>
+		<studij model="3+2">
+			<upis>200</upis>
+		</studij>
+		<sport>
+			<dvorana>Ne</dvorana>
+			<ekipa>Rukomet</ekipa>
+			<ekipa>Kosarka</ekipa>
+		</sport>
+		<ostalo>
+			<menza>Da</menza>
+			<kafic udaljenost="250">Caffe bar Newton</kafic>
+			<parkiraliste vrsta="Naplatni"></parkiraliste>
+			<parkiraliste vrsta="Nenaplatni"></parkiraliste>
+		</ostalo>
+	</fakultet>
+
+	<fakultet id="bio.pmf" podrucje="Prirodoslovno">
+		<ime>PMF-Biološki odsjek</ime>
+		<fid>155915277802988</fid>
+		<adresa>
+			<mjesto pbr="10000">Zagreb</mjesto>
+		</adresa>
+		<studij model="3+2">
+			<upis>150</upis>
+		</studij>
+		<sport>
+			<dvorana>Ne</dvorana>
+			<ekipa>Rukomet</ekipa>
+			<ekipa>Odbojka</ekipa>
+		</sport>
+		<ostalo>
+			<menza>Da</menza>
+			<parkiraliste vrsta="Naplatni"></parkiraliste>
+			<parkiraliste vrsta="Nenaplatni"></parkiraliste>
+		</ostalo>
+	</fakultet>
+</fakulteti>
+
+

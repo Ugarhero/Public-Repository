@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org/" lang="en">
+<head>
+    <title>Popis viceva</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="/css/dizajn.css" type="text/css" media="screen"/>
+</head>
+<body>
+
+<div class="navigation-bar">
+    <ul>
+        <li><a th:class="selected" th:href="@{/}">Popis viceva</a></li>
+        <li><a th:href="@{new}">Novi unos</a></li>
+    </ul>
+</div>
+
+<div class="content">
+    <table class = "table">
+        <tr><th th:class="index">#</th>
+            <th th:class="jokeText">Vic</th>
+            <th th:class="numbers">Likes</th>
+            <th th:class="numbers">Dislikes</th>
+            <th th:class="numbers">Razlika</th>
+        </tr>
+        <th:block th:each="joke, iter : ${jokes}">
+            <tr>
+                <td th:text="${iter.index + 1} + '.' " th:class="index"></td>
+                <td th:text="${joke.getContent()}" th:class="jokeText"></td>
+                <td th:text="${joke.getLikes()}" th:class="numbers"></td>
+                <td th:text="${joke.getDislikes()}" th:class="numbers"></td>
+                <td th:text="${joke.getLikes() - joke . getDislikes()}" th:class="numbers"></td>
+                <td>
+                    <form action="/vote" method="post">
+                        <input type="hidden" name="id" th:value="${joke.getId()}"/>
+                        <input name="like" type="submit" value="Like"/><br/>
+                        <input name="dislike" type="submit" value="Dislike"/>
+
+                    </form>
+                </td>
+            </tr>
+        </th:block>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

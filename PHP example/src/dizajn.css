@@ -1,0 +1,203 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    border-bottom: double;
+    background-image: url("pattern.jpg");
+    max-height: 10%;
+    position: relative;
+    overflow: auto;
+}
+
+.no-bullets {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 255px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 15px 16px;
+    text-decoration: none;
+    position: relative;
+    overflow: auto;
+    width: auto;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+    padding-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    position: relative;
+    width: auto;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    overflow: auto;
+    height: 150px;
+}
+
+.title {
+    font-size: xx-large;
+    padding-top: 50px;
+    padding-left: 40%;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    min-height: 66vh;
+    position: relative;
+    overflow: auto;
+}
+
+.navigation-bar {
+    border-right: double;
+    width: 250px;
+    max-width: 250px;
+    background: whitesmoke;
+    position: relative;
+}
+
+.selected {
+    background-color: #4183c4;
+    color: white;
+    padding-left: 40px;
+}
+
+.content {
+    width: 80vw;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 10px;
+    position: relative;
+    overflow: auto;
+    min-height: 84.5vh;
+}
+
+.footer {
+    border-top: double;
+    border-bottom: double;
+    display: block;
+    background-image: url("pattern.jpg");
+    position: relative;
+    overflow: auto;
+}
+
+.credentials{
+    color: red;
+    font-size: large;
+    font-family: cursive;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.picture {
+    width: 95%;
+    position: relative;
+    overflow: auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+ul li {
+    list-style: disc;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    overflow: auto;
+    position: relative;
+}
+
+.bordered {
+    border: 1px solid black;
+}
+
+ol {
+    width: 45%;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+#zipcode td {
+    border: 1px solid black
+}
+
+#zipcode thead {
+    border-bottom: 2px solid black;
+    color: maroon;
+}
+
+#zipcode {
+    margin-left: 35%;
+    margin-right: 40%;
+    position: relative;
+    overflow: auto;
+}
+
+.row{
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: auto;
+}
+
+.colored{
+    color: red;
+    background-color: gainsboro;
+}
+
+.table-bordered th{
+    border: 2px solid black;
+}
+
+.table-bordered td{
+    border: 1px solid black;
+}
+
+.bigFont{
+    font-size: large;
+}
+
+.fixedSize{
+    width: 100px;
+    height: 100px;
+}
+
+.search{
+    width : 40px;
+    height: 40px;
+}
+#Ispis_detalja{
+    visibility: hidden;
+}
+
+/*#map { height: 180px;*/
+    /*visibility: hidden;*/
+/*}*/

@@ -1,0 +1,23 @@
+<!ELEMENT fakulteti (fakultet*)>
+<!ELEMENT fakultet (ime, fid, adresa, studij,sport?,ostalo)>
+<!ATTLIST fakultet id ID #REQUIRED>
+<!ATTLIST fakultet podrucje (Prirodoslovno|Tehnicko|Biomedicinsko|Biotehnicko|Drustveno|Humanisticko|Umjetnicko) #REQUIRED>
+<!ELEMENT ime (#PCDATA)>
+<!ELEMENT fid (#PCDATA)>
+<!ELEMENT adresa (mjesto)>
+<!ELEMENT mjesto (#PCDATA)>
+<!ATTLIST mjesto pbr CDATA #REQUIRED>
+<!ELEMENT studij (upis?)>
+<!ATTLIST studij model CDATA #REQUIRED>
+<!ELEMENT upis (#PCDATA)>
+<!ELEMENT sport (dvorana?, ekipa*)>
+<!ELEMENT dvorana (#PCDATA)>
+<!ELEMENT ekipa (#PCDATA)>
+<!ELEMENT ostalo (menza, kafic*, parkiraliste+)>
+<!ELEMENT menza (#PCDATA)>
+<!ELEMENT kafic (#PCDATA)>
+<!ATTLIST kafic udaljenost CDATA #REQUIRED>
+<!ELEMENT parkiraliste EMPTY>
+<!ATTLIST parkiraliste vrsta (Naplatni|Nenaplatni|Nema) 'Nema' >
+
+
